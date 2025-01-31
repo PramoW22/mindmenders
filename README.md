@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+MindMenders Mental Health Support Network
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Overview
+MindMenders** is an innovative online support network designed specifically for university students. It addresses mental health challenges by providing resources, peer support, and access to professionals through a secure and user-friendly platform.  
 
-## Available Scripts
+ Key Features
+- User Account & Profile: Create and manage personalized profiles.  
+- Mental Wellness Insight: Educational resources on mental health.  
+- Self-Assessment Tools: Evaluate mental well-being with quizzes.  
+- Resource Hub: Articles, videos, and coping strategies.  
+- Peer Support Network: Interact with other users and share experiences.  
+- Professional Directory: Find therapists, counselors, and psychiatrists.  
+- Appointment Scheduler: Book, modify, and cancel therapy sessions.  
+- Chat Support:Connect with professionals via secure messaging.  
+- Crisis Hotlines:Emergency contact support.  
+- Feedback & Ratings: Users can share experiences and rate services.  
 
-In the project directory, you can run:
+ Technology Stack
+ Frontend: 
+-HTML, CSS, JavaScript  
+-ReactJS  
+-Bootstrap  
 
-### `npm start`
+ Backend: 
+- Node.js (Express)  
+- MySQL (Relational Database Management System)  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ Other Tools: 
+- Figma & Adobe XD (UI/UX Design)  
+- Postman (API Testing)  
+- GitHub (Version Control)  
+- Jest & Cypress (Testing Frameworks)  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+System Architecture
+The MindMenders platform consists of three primary user roles:  
+1. Admin – Manages consultants, users, and system updates.  
+2. Consultants – Provide mental health support and maintain schedules.  
+3. Users (Visitors) – Access resources, book appointments, and seek support.
 
-### `npm test`
+                    
+![image](https://github.com/user-attachments/assets/2fb2f7ca-13cd-41b8-b1e9-38e14c412193)
+![image](https://github.com/user-attachments/assets/3d7beaef-cc99-4613-9cb0-9472c2e63ec6)
+![image](https://github.com/user-attachments/assets/a7fcab23-54f5-4d5d-9c4c-856752ddf29c)
+![image](https://github.com/user-attachments/assets/ee49d4de-12e6-4040-8c60-8136762c28c4)
+![image](https://github.com/user-attachments/assets/c0adb263-d92d-4b06-b638-e533d121ff4c)
+![image](https://github.com/user-attachments/assets/0b9f5bc3-6719-46ef-ab3e-95bc6a1dc327)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  UML Diagrams
+  
+- Use Case Diagram – Defines system interactions.
+  
+ ![image](https://github.com/user-attachments/assets/d078d728-5ac6-4338-b316-a2b02725a697)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Class Diagram – Illustrates relationships between system components.
+![image](https://github.com/user-attachments/assets/790e39c4-1b0e-41f7-bc53-aff10170a043)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    
+- Sequence Diagram – Shows interactions within use cases.  
+- ER Diagram – Maps out entity relationships in the database.
+![image](https://github.com/user-attachments/assets/be961ab4-dd61-4e8a-b1f8-28d983cb23e3)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Development Approach
+We followed an Agile methodology, with iterative sprints to refine the platform based on user feedback.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
