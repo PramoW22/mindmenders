@@ -70,4 +70,4 @@ Development Approach
 We followed an Agile methodology, with iterative sprints to refine the platform based on user feedback.  
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
